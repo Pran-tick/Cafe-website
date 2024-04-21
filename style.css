@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Syne:wght@400..800&display=swap');
+
+/* font-family: "Homemade Apple", cursive; */
+/* font-family: "Syne", sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Syne", sans-serif; */
+}
+body, html{
+    height: 100vh;
+    width: 100%;
+    background-color: whitesmoke;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: "Syne", sans-serif;
+    margin-bottom: 30px;
+}
+.list{
+    display: flex;
+    gap: 40px;
+}
+ul li{
+    list-style: none;
+}
+.btn{
+    width: 150px;
+    padding: 10px;
+    height: 40px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #140C32;
+    color: white;
+}
+.image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.image img{
+    width: 1420px;
+}
+.line{
+    width: 150px;
+    height: 2px;
+    background-color: black;
+}
+.hero1{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.spanmain{
+    font-family: "Dancing Script", cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+}
+.center{
+    
+    display: flex;
+    align-items: center;
+    font-family: "Syne", sans-serif;
+    gap: 50px;
+    padding-bottom: 200px;
+
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+}
+.flex1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.right{
+    display: flex;
+    gap: 10px;
+}
+.right img{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    transition: ease-in-out 0.2s;
+}
+.right img:hover {
+    transform: scale(1.1);
+}
+.opa{
+    opacity: 0.5;
+    transition: ease-in-out 0.2s;
+}
+.opa:hover{
+    transform: scale(1.1);
+}
+.about{
+    font-weight: 600;
+}
+.btns{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    margin-left: 550px;
+    padding-right: 49px;
+}
+.see{
+    border: none;
+    background-color: #140C32;
+    color: white;
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+}
+.gallery{
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.craft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-family: "Dancing Script", cursive; 
+}
+.craft h3{
+    font-size: 2.5rem;
+}
+.gallerycontainer{
+    /* height: 450px;
+    width: 1415px;
+    border: 2px solid black; */
+    text-align: center;
+    margin-left: 50px;
+    position: relative;
+}
+.top .short{
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+.long{
+    height: 250px;
+    width: 480px;
+    object-fit: cover;
+    object-position: top;
+}
+.bottom img{
+    height: 200px;
+    width: 258.5px;
+    object-fit: cover;
+}
+.heading{
+    transition: ease-in-out 0.2s;
+}
+.heading:hover{
+    transform:translateY(-10px);
+}
+ .bottom img{
+    transition: ease-in-out 0.2s;
+}
+/* hover effect for images in the bottom section */
+.bottom img:hover{
+    transform: scale(1.06)
+}
+.top img{
+    transition: ease-in-out 0.2s;
+}
+.top img:hover{
+    transform: scale(1.06);
+}
+#left{
+    position: absolute;
+    top: 240px;
+    left: 250px;
+}
+#right{
+    position: absolute;
+    top: 240px;
+    right: 250px;
+}
+.greencontainer{
+    color: white;
+    background-color:#1E2207;
+    height: 400px;
+    width: 100%;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Dancing Script", cursive; 
+    gap: 10px;
+    padding: 50px;
+}
+.wholecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 50px;
+    padding-left: 50px;
+    gap: 5  0px;
+}
+.twophotos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 119px;
+}
+
+.twophotos img{
+    width: 650px;
+}
+
+.olivebtn{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #E58D09;
+    color: white;
+    gap: 15px;
+}
+.leftpage{
+    height: 300px;
+    width: 200px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.rightpage{
+    height: 300px;
+    border: 1px solid black;
+    width: 400px;
+}
+.ruled{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-left: 540px;
+}
+.ruleline{
+    border-bottom: 1px solid black;
+}
+footer{
+    background-color: #140C32;
+    color: white;
+    width: 100%;
+    height: 650px;
+    border: 1px solid black;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: "Syne", sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 550px;
+}
+.rule{
+    border: 1px solid white;
+    width: 33px;
+}
+.three{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.left h1{
+    font-size: 37px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+.mailflex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.whatsappflex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.cellflex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.minileft{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+.minithree{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.miniright{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+.miniline{
+    height: 70px;
+    width: 1px;
+    background-color: white;
+}
+.instagram{
+    color: white ;
+}
+.socials{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.noida{
+    display: flex;
+    align-items: flex-start;
+    gap: 150px;
+}
+.spancontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.city{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.secminiline{
+    width: 520px;
+    height: 1px;
+    background-color: white;
+    opacity:  0.2;
+}
+.secondbtn{
+    width: 100%;
+    padding: 15px;
+    color: black;
+}
+.anotherspancontainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
